@@ -1,9 +1,91 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>home</ion-title>
+    <ion-title>Title</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button auto-hide="false"></ion-menu-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <!-- User INFO -->
+  <ion-list class="list1" [inset]="true" color="light">
+    <ion-item color="light">
+      <ion-avatar slot="start">
+        <img src="https://media.tenor.com/8MpDsPPKOJQAAAAM/walking-duck.gif" alt="">
+      </ion-avatar>
+      <ion-label>
+        <h1>Dean Decierdo</h1>
+        <p>Sales: <span class="money"><i>Php 5,000.00</i></span></p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+    <!-- User INFO END-->
 
+  <!-- Order info -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Orders</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+       <!-- product info -->
+       <ion-item color="light">
+        <ion-avatar class="product-avatar" slot="start">
+          <img src="https://cdn.shopify.com/s/files/1/0286/9438/0653/products/1_41cc22c9-ed5a-4f60-adb6-bcfddcaaece7_400x.jpg?v=1658892413" alt="">
+        </ion-avatar>
+        <ion-label>
+          <h2><b>Resourced Bag</b></h2>
+          <p><span class="money"><i>Php 148.00</i></span></p>
+        </ion-label>
+      </ion-item>
+      <!-- product info END-->
+             <!-- product info -->
+             <ion-item color="light">
+              <ion-avatar class="product-avatar" slot="start">
+                <img src="https://cdn.shopify.com/s/files/1/0504/9017/9784/products/JV19-1_large.png?v=1644142406" alt="">
+              </ion-avatar>
+              <ion-label>
+                <h2><b>Ethnic Style Top</b></h2>
+                <p><span class="money"><i>Php 388.00</i></span></p>
+              </ion-label>
+            </ion-item>
+            <!-- product info END-->
+
+    </ion-card-content>
+  </ion-card>
+  <!-- Order info END-->
+    <!-- Finished Orders info -->
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>Finished Orders</ion-card-subtitle>
+      </ion-card-header>
+  
+      <ion-card-content>
+         <!-- product info -->
+         <ion-item color="light">
+          <ion-avatar class="product-avatar" slot="start">
+            <img src="https://i.pinimg.com/236x/cb/57/43/cb5743b562923faea36824f9f931ecb3.jpg" alt="">
+          </ion-avatar>
+          <ion-label>
+            <h2><b>Ethnic Style Top</b></h2>
+            <p><span class="money"><i>Php 148.00</i></span></p>
+          </ion-label>
+        </ion-item>
+        <!-- product info END-->
+               <!-- product info -->
+               <ion-item color="light">
+                <ion-avatar class="product-avatar" slot="start">
+                  <img src="https://cdn.shopify.com/s/files/1/0504/9017/9784/products/JV19-1_large.png?v=1644142406" alt="">
+                </ion-avatar>
+                <ion-label>
+                  <h2><b>Ethnic Style Tops</b></h2>
+                  <p><span class="money"><i>Php 388.00</i></span></p>
+                </ion-label>
+              </ion-item>
+              <!-- product info END-->
+  
+      </ion-card-content>
+    </ion-card>
+    <!-- Finished Orders info END-->
 </ion-content>
