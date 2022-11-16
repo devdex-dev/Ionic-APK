@@ -9,6 +9,7 @@ import { LoaderPageRoutingModule } from './loader-routing.module';
 import { LoaderPage } from './loader.page';
 
 
+
 @NgModule({
   imports: [
     CommonModule,

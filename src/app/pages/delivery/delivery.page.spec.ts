@@ -1,28 +1,24 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { LoaderPage } from './loader.page';
+import { DeliveryPage } from './delivery.page';
 
-describe('LoaderPage', () => {
-  let component: LoaderPage;
-  let fixture: ComponentFixture<LoaderPage>;
+describe('DeliveryPage', () => {
+  let component: DeliveryPage;
+  let fixture: ComponentFixture<DeliveryPage>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ LoaderPage ],
+      declarations: [ DeliveryPage ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(LoaderPage);
+    fixture = TestBed.createComponent(DeliveryPage);
     component = fixture.componentInstance;
-    fixture.detectChanges(); 
+    fixture.detectChanges();
   }));
 
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-  it('should go to home', () => {
-    expect(false).toBeFalsy();
-  })
-
 });

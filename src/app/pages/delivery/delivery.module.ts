@@ -4,22 +4,21 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { HomePageRoutingModule } from './home-routing.module';
+import { DeliveryPageRoutingModule } from './delivery-routing.module';
 
-import { HomePage } from './home.page';
+import { DeliveryPage } from './delivery.page';
 import { DeliveryComponent } from 'src/app/components/delivery/delivery.component';
-import { DeliveryPageRoutingModule } from '../delivery/delivery-routing.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    DeliveryPageRoutingModule
   ],
   declarations: [
-    HomePage,
+    DeliveryPage,
     DeliveryComponent
   ]
 })
-export class HomePageModule {}
+export class DeliveryPageModule {}
