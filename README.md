@@ -1,2 +1,2 @@
 # Ionic FRAMEWORK APK 
-_Dexter P. Decierdo_
+_Ready for APK building in ANDROID STUDIO_
